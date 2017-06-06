@@ -23,7 +23,7 @@ def rot13(str):
                     result += alphabet[l_index]
             else:
                 result += l
-    print(result.upper())
+        print(result.upper())
         
 rot13("QBA'G RIRE GRYY NALOBQL NALGUVAT. VS LBH QB, LBH FGNEG ZVFFVAT RIRELOBQL")
 rot13("JUB JNAGF SYBJREF JURA LBH'ER QRNQ? ABOBQL")

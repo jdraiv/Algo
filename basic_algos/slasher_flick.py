@@ -7,3 +7,4 @@ def slasher(arr, chopp_n):
 slasher([1,2,3,],2)
 slasher([1,2,3],0)
 
+
