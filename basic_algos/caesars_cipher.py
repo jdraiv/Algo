@@ -10,15 +10,12 @@ def rot13(str):
         
         if l == " ":
             result += l
-            
         else:
             if l in alphabet:
-                
                 l_index = alphabet.index(l) + 13
 
                 if l_index >= len(alphabet):
                     result += alphabet[l_index - len(alphabet)]
-
                 else:
                     result += alphabet[l_index]
             else:
