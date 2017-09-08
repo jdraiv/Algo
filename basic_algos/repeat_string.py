@@ -6,9 +6,9 @@ def repeat_string(string, num):
     if num > 0 :
         for a in range(0,num):
             result += string
-        print(result)
+        return result
     else:
-        print(result)
+        return result
 
-repeat_string("abc", 3)
-repeat_string("*", 2)
+print(repeat_string("abc", 3))
+print(repeat_string("*", 2))

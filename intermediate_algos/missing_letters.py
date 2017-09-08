@@ -3,8 +3,6 @@
 #If all letters are present in the range, return undefined.
 
 import string
-
-
 def missing_l(s):
     alphabet = list(string.ascii_lowercase)
     result = ""
@@ -18,10 +16,10 @@ def missing_l(s):
         else:
             c += 1
     if len(result) == 0:
-        print("Undefined")
+        return "Undefined"
     else:
-        print(result)
+        return result
 
-missing_l("abce")
-missing_l("abcdefghjklmno")
-missing_l("bcd")
+print(missing_l("abce"))
+print(missing_l("abcdefghjklmno"))
+print(missing_l("bcd"))

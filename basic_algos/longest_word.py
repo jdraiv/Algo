@@ -8,8 +8,8 @@ def longest(s):
             word_len = len(a)
             largest = a
 
-    print("The largest word is: " + largest + ", Length:", word_len)
+    return "The largest word is: %s, Length: %s" % (largest,word_len)
 
 
 test = "Hello my name is"
-longest(test)
+print(longest(test))

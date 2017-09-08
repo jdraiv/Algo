@@ -2,13 +2,12 @@
 #once it has been sorted. The returned value should be a number.
 
 def where(arr,n):
-    arr = sorted(arr)
     c = 0
-    for a in arr:
+    for a in sorted(arr):
         if n > a:
             c += 1
         else:
-            print(c)
+            return c
             break
     
 where([10,30,20,60,50],40)

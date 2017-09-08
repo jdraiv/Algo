@@ -7,6 +7,5 @@ def largest_of_four(arr):
         largest_n = max(array)
         result_arr.append(largest_n)
 
-    print(result_arr)
-
-largest_of_four([ [1,2,3,4] , [1,2,8,9], [20,15,100,8], [29,30,10,5] ])
+    return result_arr
+print(largest_of_four([ [1,2,3,4] , [1,2,8,9], [20,15,100,8], [29,30,10,5] ]))

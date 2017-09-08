@@ -1,13 +1,12 @@
 
 
 def find_word(text,string):
-    textLen = len(text)
-    stringLen = len(string)
+    text_len = len(text)
+    string_len = len(string)
 
     number = text.find(string)
     if number > 0:
-        print('Word in text')
-        number = number + stringLen -1
+        number = number + string_len -1
     return number
 
 

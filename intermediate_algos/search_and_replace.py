@@ -1,8 +1,8 @@
 
 def search_and_replace(string, before, after):
     string = string.replace(before, after)
-    print(string)
+    return string
     
-search_and_replace("Let us go to the store", "store", "mall")
+print(search_and_replace("Let us go to the store", "store", "mall"))
 
-search_and_replace("He is Sleeping on the couch", "Sleeping", "sitting")
+print(search_and_replace("He is Sleeping on the couch", "Sleeping", "sitting"))

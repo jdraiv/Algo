@@ -11,8 +11,8 @@ def diff_array(arr1,arr2):
     	search_arr(obj_one, arr2, result)
     	search_arr(obj_two,arr1,result)
 
-    print(result)
+    return result
     
     
-diff_array(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])
-diff_array([1, 2, 3, 5], [1, 2, 3, 4, 5])
+print(diff_array(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]))
+print(diff_array([1, 2, 3, 5], [1, 2, 3, 4, 5]))

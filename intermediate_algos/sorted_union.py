@@ -6,6 +6,6 @@ def union(array):
                 result.append(a)
             elif isinstance(a, list):
                 print(a)
-    print(result)
+    return sorted(result)
         
-union([[1,3,2],[5,2,1,4],[2,1,[5]]])
+print(union([[1,3,2],[5,2,1,4],[2,1,[5]]]))

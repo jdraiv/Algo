@@ -5,9 +5,9 @@ def range_sum(arr):
     
     for n in range(min(arr),max(arr) + 1):
         result += n
-    print(result)
+    return result
         
         
-range_sum([1,4])
-range_sum([10,5])
-range_sum([5,10])
+print(range_sum([1,4]))
+print(range_sum([10,5]))
+print(range_sum([5,10]))

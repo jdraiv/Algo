@@ -1,13 +1,13 @@
 def boo(b):
     if type(b) is bool:
-        print("True")
+        return True
     else:
-        print("False")
+        return False
         
         
-boo(True)
-boo(False)
-boo("Hello")
-boo(1)
-boo([1,2,3])
+print(boo(True))
+print(boo(False))
+print(boo("Hello"))
+print(boo(1))
+print(boo([1,2,3]))
     

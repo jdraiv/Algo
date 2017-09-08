@@ -16,7 +16,7 @@ def sum_primes(n):
     for a in range(0,n + 1):
         if prime(a) == True:
             result += a
-    print(result)
+    return result
     
-sum_primes(10)
-sum_primes(977)
+print(sum_primes(10))
+print(sum_primes(977))

@@ -6,7 +6,7 @@ def mutations(arr):
     for letter in arr[1]:
         if letter.lower() not in arr[0].lower():
             result = False
-    print(result)
+    return result
 
-mutations(["hEllo","Hello"])
-mutations(["Alien","line"])
+print(mutations(["hEllo","Hello"]))
+print(mutations(["Alien","line"]))

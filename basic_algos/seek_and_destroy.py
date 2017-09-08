@@ -8,6 +8,6 @@ def destroyer(arr, find1, find2):
     for a in arr:
         if a != find1 and a != find2:
             result.append(a)
-    print(result)
+    return result
 
-destroyer([1,2,2,3,4,10,3,4,5], 1, 2)
+print(destroyer([1,2,2,3,4,10,3,4,5], 1, 2))

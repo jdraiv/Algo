@@ -1,13 +1,14 @@
 
 #Check if a string (first argument, str) ends with the given target string (second argument, target)
 
-def confirm_ending(str,target):
-    last_digit = str[len(str) - 1:]
+def confirm_ending(string,target):
+    string = string.lower()
+    last_digit = string[len(string) - 1:]
 
-    if last_digit == target:
-        print(True)
+    if last_digit == target.lower():
+        return True
     else:
-        print(False)
+        return False
 
-
-confirm_ending("Helly", "o")
+print(confirm_ending("Hello", "o"))
+print(confirm_ending("Helly", "o"))

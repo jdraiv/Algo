@@ -24,10 +24,10 @@ def spinal_case(s):
         else:
             result += '-'
 
-    print(result)
+    return result
     
         
         
-spinal_case("This is spinal case")
-spinal_case("thisIsSpinalCase")
-spinal_case("AllThe-small Things")
+print(spinal_case("This is spinal case"))
+print(spinal_case("thisIsSpinalCase"))
+print(spinal_case("AllThe-small Things"))

@@ -3,6 +3,6 @@ def factorialize(n):
     total = 1
     for a in range(1, n + 1):
         total = total * a
-    print(total)
+    return total
 
-factorialize(5)
+print(factorialize(5))

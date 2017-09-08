@@ -9,10 +9,10 @@ def cap(s):
             result += a.capitalize()
         else:
             result += ' ' + a.capitalize()
-    
-    print(result)
+    return result
         
 test = "I am a little tea pot"
 test2 = "How our bodies, born to heal, become so prone to die?"
 
-cap(test2)
+print(cap(test))
+print(cap(test2))
